@@ -15,7 +15,7 @@ mybatis:
 spring:
  profiles: dev
  application:
- name: microservicecloud-config-dept-client 
+ name: microservicecloud-config-dept-client-dev1
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource           
    driver-class-name: org.gjt.mm.mysql.Driver 
@@ -52,7 +52,7 @@ mybatis:
 spring:
  profiles: test
  application:
- name: microservicecloud-config-dept-client 
+ name: microservicecloud-config-dept-client-test1
  datasource:
     type: com.alibaba.druid.pool.DruidDataSource   
     driver-class-name: org.gjt.mm.mysql.Driver        
