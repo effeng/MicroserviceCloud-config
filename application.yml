@@ -2,16 +2,24 @@
  profiles: 
   active: 
    - dev
+<<<<<<< HEAD
    
 ---
 
+=======
+------
+>>>>>>> parent of 8614191... Update application.yml
 spring: 
  profiles: dev
   application:
    name: microservicecloud-config-atguigu-dev
+<<<<<<< HEAD
    
 ---
 
+=======
+------
+>>>>>>> parent of 8614191... Update application.yml
 spring: 
  profiles: test
   application:
