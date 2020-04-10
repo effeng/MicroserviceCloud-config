@@ -13,10 +13,10 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       
     
 spring:
-  profiles: dev
-  application:
-  name: microservicecloud-config-dept-client 
-  datasource:
+ profiles: dev
+ application:
+ name: microservicecloud-config-dept-client 
+ datasource:
    type: com.alibaba.druid.pool.DruidDataSource           
    driver-class-name: org.gjt.mm.mysql.Driver 
    url: jdbc:mysql://localhost:3306/clouddb01
@@ -50,10 +50,10 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml     
     
 spring:
-  profiles: test
-  application:
-  name: microservicecloud-config-dept-client 
-  datasource:
+ profiles: test
+ application:
+ name: microservicecloud-config-dept-client 
+ datasource:
     type: com.alibaba.druid.pool.DruidDataSource   
     driver-class-name: org.gjt.mm.mysql.Driver        
     url: jdbc:mysql://localhost:3306/clouddb02     
